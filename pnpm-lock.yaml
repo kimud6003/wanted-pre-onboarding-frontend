@@ -41,6 +41,9 @@ dependencies:
   styled-components:
     specifier: 6.0.0-rc.3
     version: 6.0.0-rc.3(react-dom@18.2.0)(react@18.2.0)
+  styled-reset:
+    specifier: ^4.4.7
+    version: 4.4.7(styled-components@6.0.0-rc.3)
   typescript:
     specifier: ^4.4.2
     version: 4.4.2
@@ -9454,6 +9457,15 @@ packages:
       tslib: 2.5.3
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /styled-reset@4.4.7(styled-components@6.0.0-rc.3):
+    resolution: {integrity: sha512-OxtLqP9/2mXoI8WYa0NrJuTyvVziT+fi0Dp8go5CgTGzSVPQVo5ggaxl1tK+l08ynrVImKswSiDJFaVHxBKJuQ==}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      styled-components: '>=4.0.0 || >=5.0.0'
+    dependencies:
+      styled-components: 6.0.0-rc.3(react-dom@18.2.0)(react@18.2.0)
     dev: false
 
   /stylehacks@5.1.1(postcss@8.4.24):
